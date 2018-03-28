@@ -1,0 +1,131 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+body {
+  background-color: #bfd8d2;
+  font-family: 'Lato', arial, sans-serif;
+  min-width: 100px;
+}
+h1 {
+  margin: 10px 0 5px 0;
+
+}
+h2 {
+  margin: 0px 0 15px 0;
+  color:#777777;
+  font-weight: 500;
+  font-size: 20px;
+}
+h3 {
+  margin:10px 0 20px 0;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom:3px;
+  text-align: center;
+  font-size: 26px;
+  color:grey;
+}
+h4 {
+  margin:0;
+  font-size:20px;
+}
+p {
+  font-size:16px;
+  line-height: 20px;
+  padding:5px 0 10px 0;
+}
+img {
+  max-width: 100%;
+}
+.header {
+  background-color:#EEEEEE;
+  padding:20px;
+}
+.header-content {
+  width:90%;
+  position:relative;
+  margin:0 auto 0 auto;
+}
+.header img {
+  padding:0 20px 0 20px;
+  border-radius:50%;
+  float:left;
+}
+.clear {
+  clear:both;
+}
+article {
+  background-color:white;
+  margin:30px 0 30px 7%;
+  padding: 20px 30px 20px 30px;
+  width:45%;
+  box-shadow: 10px 10px 10px #000;
+  float:left;
+}
+aside {
+  background-color:white;
+  margin:30px 7% 30px 0;
+  padding: 20px 30px 20px 30px;
+  width:22%;
+  box-shadow: 10px 10px 10px #000;
+  float:right;
+}
+.projects img {
+  display:block;
+  margin:0 auto 0 auto;
+}
+.project {
+  margin-bottom: 30px;
+}
+#CodeBreaker {
+  margin-top:10px;
+}
+footer {
+  width:100%;
+  clear:both;
+  text-align: center;
+}
+ul li {
+  margin:10px;
+  font-size:18px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color:darkred;
+}
+.fa-linkedin-in {
+  border-radius: 50%;
+  padding:5px;
+  background: #007bb5;
+  color: white;
+  margin:0 10px 0 0;
+}
+.fa-envelope {
+  border-radius: 50%;
+  padding:5px;
+  background: white;
+  margin:0 10px 0 0;
+}
+@media screen and (max-width:800px) {
+  .header img {
+    float:none;
+    display:block;
+    margin:0 auto;
+  }
+  .header h1, .header h2, .header p{
+    text-align: center;
+  }
+  article {
+    float:none;
+    width:85%;
+    margin:30px auto;
+  }
+  aside {
+    float:none;
+    width:85%;
+    margin:30px auto;
+  }
+}

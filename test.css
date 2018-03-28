@@ -1,0 +1,72 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+body {
+  background-color: #bfd8d2;
+
+}
+h1 {
+  margin: 10px 0 5px 0;
+
+}
+h2 {
+  margin: 0px 0 15px 0;
+  color:#777777;
+  font-weight: 500;
+  font-size: 20px;
+}
+h3 {
+  margin:10px 0 20px 0;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom:3px;
+  text-align: center;
+  font-size: 26px;
+  color:grey;
+}
+h4 {
+  margin:0;
+  font-size:20px;
+}
+p {
+  font-size:18px;
+  line-height: 20px;
+  padding:5px 0 10px 0;
+}
+.header {
+  background-color:#EEEEEE;
+  padding:20px 0 20px 0;
+  height:150px;
+}
+.header-content {
+  background-color: green;
+  width:1200px;
+  position:relative;
+  left:100px;
+
+}
+.header img {
+  padding:0 20px 0 20px;
+  border-radius:50%;
+  float:left;
+}
+.button {
+  float:right;
+}
+article {
+  background-color:white;
+  margin:30px 0px 30px 100px;
+  padding: 20px 30px 20px 30px;
+  width:800px;
+  box-shadow: 10px 10px 10px #000;
+  float:left;
+}
+aside {
+  background-color:white;
+  margin:30px 100px 30px 0px;
+  padding: 20px 30px 20px 30px;
+  width:150px;
+  float:right;
+
+}
